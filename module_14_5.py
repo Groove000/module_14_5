@@ -13,7 +13,7 @@ if crud_functions.products_is_empty():
     crud_functions.populate_products()
 products = crud_functions.get_all_products()
 
-api = "7819952045:AAGIXjXI9W2M5quMNh6BkKf5BUqAtxev9SQ"
+api = ""
 
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
